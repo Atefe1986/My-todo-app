@@ -47,6 +47,9 @@ h1 {
 }
 
 .todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 32px;
 }
 
@@ -56,6 +59,7 @@ h1 {
   border: 2px solid rgba(17, 122, 255, 1);
   outline: none;
   width: 320px;
+  font-size: 16px;
 }
 
 .todo-button {
@@ -71,6 +75,7 @@ h1 {
   );
   color: white;
   text-transform: capitalize;
+  font-size: 16px;
 }
 
 .todo-container {
